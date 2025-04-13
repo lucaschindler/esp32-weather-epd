@@ -38,9 +38,9 @@
 #include "icons/icons_196x196.h"
 
 #ifdef DISP_BW_V2
-  GxEPD2_BW<GxEPD2_750_T7,
-            GxEPD2_750_T7::HEIGHT> display(
-    GxEPD2_750_T7(PIN_EPD_CS,
+  GxEPD2_BW<GxEPD2_583_T8,
+            GxEPD2_583_T8::HEIGHT> display(
+    GxEPD2_583_T8(PIN_EPD_CS,
                   PIN_EPD_DC,
                   PIN_EPD_RST,
                   PIN_EPD_BUSY));

@@ -25,11 +25,11 @@
 #include "config.h"
 
 #ifdef DISP_BW_V2
-  #define DISP_WIDTH  800
+  #define DISP_WIDTH  648
   #define DISP_HEIGHT 480
   #include <GxEPD2_BW.h>
-  extern GxEPD2_BW<GxEPD2_750_T7,
-                   GxEPD2_750_T7::HEIGHT> display;
+  extern GxEPD2_BW<GxEPD2_583_T8,
+                   GxEPD2_583_T8::HEIGHT> display;
 #endif
 #ifdef DISP_3C_B
   #define DISP_WIDTH  800
