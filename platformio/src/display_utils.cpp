@@ -32,6 +32,8 @@
 // icon header files
 #include "icons/icons.h"
 
+#define LED_BUILTIN 2
+
 /* Returns battery voltage in millivolts (mv).
  */
 uint32_t readBatteryVoltage()
